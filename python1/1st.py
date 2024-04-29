@@ -1,3 +1,2 @@
-planet = "Earth"
-diameter = 12742
-print("The diameter of {} is {} kilometers.".format(planet,diameter))
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName("Operations").getOrCreate()
